@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    top: 0;
+    display: flex;
+   
+}
+.logo ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Athiti', sans-serif;
+    display: inline;
+}
+.navbar ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Athiti', sans-serif;   
+}
+.navbar a:hover{
+    color:cornflowerblue;
+}
+.logo a:active{
+    color:rgb(0, 27, 79);
+}
+.logo i:hover{
+    color:cornflowerblue;
+}
+.navbar i:active{
+    color:rgb(0, 27, 79);
+}
+.navbar ul li{
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.container h1{
+    margin: 20px;
+    font-size: 2em;
+}
+
+.mainhead{
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: bold;
+    font-family: 'Athiti', sans-serif;
+    
+}
+img.pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px black;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: bold;
+    font-family: 'Athiti', sans-serif;
+}
+ .quote {
+    display: block;
+    font-size: 18x;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+}
+.social-img{
+    margin: 20px;
+}
+.social-img ul{
+    text-align: center;
+    width: 100%;
+}
+.social-img ul li{
+    display: inline;
+    cursor: pointer;
+    padding: 10px;  
+}
+
+.social-img ul li a{
+    color:darkcyan;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: wheat;
+    padding: 13px;
+    box-shadow: 0px 0px 10px;  
+}
+.social-img ul li a:hover{
+    color: gray;
+}
+.social-img ul li a:active{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: inherit;
+    padding: 20px;
+}
+.bio{
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+}
+
+/* Under Bio */
+
+hr {
+    border-top: 1px solid;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.underline{
+    display: block;
+    text-align: center;
+    font-size: 0.5rem;
+    opacity: 70%;
+}
+
+
+
+

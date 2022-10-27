@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+hr {
+    border-top: 2px solid;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.navbar ul li{
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Athiti', sans-serif;
+}
+.navbar a:hover{
+    color:cornflowerblue;
+}
+.navbar a:active{
+    color:rgb(0, 27, 79);
+}
+/* Undernavbar */
+
+.mainhead{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Athiti', sans-serif;
+}
+/* underMainhead */
+
+.crop{
+    margin: 40px;
+}
+.crop h1{
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.content{
+    text-align: center;
+
+}
+.content img{
+    border: 1px solid black;
+    width: 80%;
+}
+.bio{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    font-size: 1rem;
+    margin: 10px;
+}
